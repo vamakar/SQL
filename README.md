@@ -4,10 +4,10 @@ ProductCategoryPairs.sql - выводит все пары "Имя продукт
 
 
 Products - таблица продуктов.
-	Столбцы: id, name
+Столбцы: id, name
 	
 Categories - таблица категорий.
-	Столбцы: id, name
+Столбцы: id, name
 	
-Product_Category - таблица соответствий продукта категории.
-	Столбцы: product_id, category_id
+Product_Category - таблица соответствий продукта категории. Несколько категорий одного продукта представлены несколькими строками.
+Столбцы: product_id, category_id
